@@ -4,8 +4,23 @@
     /* position: relative; */
 }
 .products-container{
-    margin: 50px;
+    margin: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
+}
+.cart-container a{
+    text-decoration: none;
+}
+.btn-checkout{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    color: white;
+    background: #FF9900;
+    border-radius: 4px;
+    font-size: 21px;
+    margin-top: 15px;
+
 }
